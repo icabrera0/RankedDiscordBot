@@ -13,7 +13,7 @@ import net.dv8tion.jda.api.utils.MemberCachePolicy;
 public class botStartup {
 
 	public static void main(String[] args) throws LoginException{
-		JDABuilder jda = JDABuilder.createDefault("OTg4ODY3NDk3NDkzMTUxNzY3.Gi8eh0.UDVXcip4f4lYUS0v67LRp1EdFdOPm8n2HxHQcM");
+		JDABuilder jda = JDABuilder.createDefault("TOKEN");
 		jda.setActivity(Activity.listening("fchelp"));
 		jda.setStatus(OnlineStatus.ONLINE);
 		jda.setChunkingFilter(ChunkingFilter.ALL);
