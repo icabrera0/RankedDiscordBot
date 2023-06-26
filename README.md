@@ -1,2 +1,2 @@
 # RankedDiscordBot
-Discord BOT tailored for gaming communities which want to have an internal ranked sytem within their community. Developed using JDA (Java Discord API)
+Discord BOT with an internal ELO system which allows you to join a 2v2 match.
